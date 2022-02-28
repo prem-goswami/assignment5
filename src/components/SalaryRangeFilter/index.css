@@ -1,0 +1,9 @@
+.eachItem {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.labelText {
+  color: white;
+  font-family: 'Roboto';
+}
