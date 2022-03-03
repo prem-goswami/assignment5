@@ -62,7 +62,7 @@ class Login extends Component {
         <form className="inputContainer" onSubmit={this.clickSubmit}>
           <img
             src="https://assets.ccbp.in/frontend/react-js/logo-img.png"
-            alt=" website logo"
+            alt="website logo"
             className="logoImage"
           />
           <div className="usernameContainer">
@@ -74,6 +74,7 @@ class Login extends Component {
               id="userName"
               className="inputBox"
               onChange={this.onChangeUserName}
+              placeholder="Username"
             />
           </div>
           <div className="usernameContainer">

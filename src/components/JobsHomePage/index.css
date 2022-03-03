@@ -1,12 +1,13 @@
 .jobsHomeContainer {
   padding: 20px;
   background-color: black;
-  height: 100vh;
+  height: 100%;
+  display: flex;
+  background-size: cover;
 }
 
 .profileContainer {
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
-  width: 18%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,10 +20,10 @@
 }
 
 .leftContainers {
-  max-width: 1200px;
-}
-.line {
-  width: 1200px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
 }
 .nameText {
   font-size: 20px;
@@ -36,4 +37,20 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.rightContainer {
+  overflow-y: scroll;
+}
+.searchInput {
+  margin: 20px;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  width: 30%;
+  color: white;
+  padding: 20px;
+  height: 10px;
+  border-radius: 15px;
 }

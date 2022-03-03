@@ -8,11 +8,7 @@ const SalaryRangeFilter = props => {
   }
   return (
     <li className="eachItem">
-      <input
-        type="checkbox"
-        id={salaryRangeId}
-        onChange={onChangeSalaryFilter}
-      />
+      <input type="radio" id={salaryRangeId} onClick={onChangeSalaryFilter} />
       <label htmlFor={salaryRangeId} className="labelText">
         {label}
       </label>
